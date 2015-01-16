@@ -19,4 +19,10 @@ public class DeckardActivityRobolectricTest {
         Activity activity = Robolectric.buildActivity(DeckardActivity.class).create().get();
         assertTrue(activity != null);
     }
+    
+    @Test
+    public void testFailure
+    {
+        assertTrue(false);
+    }
 }
