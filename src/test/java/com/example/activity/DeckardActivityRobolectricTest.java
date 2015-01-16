@@ -10,8 +10,6 @@ import org.robolectric.annotation.Config;
 
 import static org.junit.Assert.assertTrue;
 
-@Config(manifest = "./src/main/AndroidManifest.xml")
-@RunWith(RobolectricTestRunner.class)
 public class DeckardActivityRobolectricTest {
     
     @Test
