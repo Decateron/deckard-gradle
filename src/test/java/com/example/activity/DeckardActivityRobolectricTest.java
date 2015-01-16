@@ -21,7 +21,7 @@ public class DeckardActivityRobolectricTest {
     }
     
     @Test
-    public void testFailure
+    public void testFailure()
     {
         assertTrue(false);
     }
